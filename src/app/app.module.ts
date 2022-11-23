@@ -3,10 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EmpleadoComponent } from './empleado/empleado.component';
+import { FrutaComponent } from './fruta/fruta.component';
 
+
+// Todos los componentes para que funcionen tienen que estar registrados
+// en app.module.ts
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, // En declarations es donde se declaran los componentes
+    FrutaComponent,
+    EmpleadoComponent
   ],
   imports: [
     BrowserModule,
