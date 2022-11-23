@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmpleadoComponent } from './empleado/empleado.component';
 import { FrutaComponent } from './fruta/fruta.component';
+import { FormsModule } from '@angular/forms';
 
 
 // Todos los componentes para que funcionen tienen que estar registrados
@@ -17,7 +18,8 @@ import { FrutaComponent } from './fruta/fruta.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
